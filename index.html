@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>中国世界文化遗产 | 故事地图</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="map"></div>
+    
+    <!-- 控制栏 -->
+    <div id="controls">
+        <button id="playBtn" class="play-btn">▶ 自动播放</button>
+        <button id="pauseBtn" class="pause-btn">⏸ 暂停</button>
+        <div id="timeline-container">
+            <div id="timeline-bar"></div>
+        </div>
+        <span id="chapter-indicator">第1章 / 共8章</span>
+    </div>
+    
+    <div id="story-panel"></div>
+    
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
